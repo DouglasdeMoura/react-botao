@@ -2,7 +2,7 @@ import React, { ButtonHTMLAttributes, FC, ReactNode } from 'react';
 
 import { ButtonContainer } from './styles';
 
-interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   background?: string;
   color?: string;
